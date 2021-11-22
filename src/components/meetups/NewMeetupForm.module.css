@@ -22,6 +22,14 @@
   width: 100%;
 }
 
+.control input:focus,
+.control textarea:focus,
+.dropdown:focus {
+  border: 2px solid #004b52;
+  background-color: #f7feff;
+  outline: none;
+}
+
 .actions {
   margin-top: 1rem;
   text-align: right;
@@ -30,18 +38,18 @@
 .actions button {
   font: inherit;
   cursor: pointer;
-  background-color: #77002e;
+  background-color: #004b52;
   color: white;
   padding: 0.5rem 1.5rem;
-  border: 1px solid #77002e;
+  border: 1px solid #004b52;
   border-radius: 4px;
   font-weight: bold;
 }
 
 .actions button:hover,
 .actions button:active {
-  background-color: #a50e48;
-  border-color: #a50e48;
+  background-color: #18727a;
+  border-color: #18727a;
 }
 
 .dropdown {
@@ -49,7 +57,7 @@
   width: 100%;
   pad: 0.5rem 1.5rem;
   height: 2rem;
-  border: 1px solid #77002e;
+  border: 1px solid #18727a;
   border-radius: 4px;
   font: inherit;
 }
